@@ -25,6 +25,7 @@ const findShortestWord = (words: Array<string>) => {
 }
 
 const TextSummary = (): ReactElement => {
+  // We can access query through the useAppContext hook
   const { query } = useAppContext()
 
   const allWords = query.split(' ')

@@ -1,1 +1,3 @@
-# examples
+# Examples
+
+Repo for teaching purposes

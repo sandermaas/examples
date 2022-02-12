@@ -7,6 +7,7 @@ import { Heading } from 'components/Heading'
 import { TextArea } from 'components/TextArea'
 
 const TextQuery = (): ReactElement => {
+  // We can access setQuery through the useAppContext hook
   const { setQuery } = useAppContext()
 
   const [textValue, setTextValue] = useState<string>('')
