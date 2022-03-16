@@ -1,0 +1,13 @@
+{
+	"execMap": {
+		"ts": "ts-node"
+	},
+	"ext": "ts, html",
+	"ignore": [
+		"src/public"
+	],
+	"verbose": true,
+	"watch": [
+		"src"
+	]
+}
